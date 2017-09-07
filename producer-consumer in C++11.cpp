@@ -5,7 +5,7 @@
 std::mutex mx;
 std::condition_variable cv;
 std::queue<int> q;
-//QQQQQQQQQQQQQQQQQQTTTTTfghfhfhx
+
 bool finished = false;
 
 void producer(int n) {
